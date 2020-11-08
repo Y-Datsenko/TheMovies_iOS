@@ -12,10 +12,16 @@ struct MovieItemView: View {
     let movie: Movie
     
     var body: some View {
-        Circle()
-            .frame(width: 50, height: 50)
-            .foregroundColor(.green)
-            .overlay(Text(movie.firstLetter))
+        HStack {
+            Circle()
+                .frame(width: 50, height: 50)
+                .foregroundColor(.green)
+                .overlay(Text(movie.firstLetter))
+            VStack {
+                Text(movie.title)
+                Text(movie.description)
+            }
+        }
     }
 }
 
