@@ -12,6 +12,8 @@
 		952412712557E12A00FF663C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952412702557E12A00FF663C /* Assets.xcassets */; };
 		952412742557E12A00FF663C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952412732557E12A00FF663C /* Preview Assets.xcassets */; };
 		9524127E2558272E00FF663C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524127D2558272E00FF663C /* Movie.swift */; };
+		9524128125582C6C00FF663C /* MovieItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524128025582C6C00FF663C /* MovieItemView.swift */; };
+		9524128525582DF900FF663C /* Simulator Screen Shot - iPhone 12 - 2020-11-08 at 15.44.39.png in Resources */ = {isa = PBXBuildFile; fileRef = 9524128425582DF900FF663C /* Simulator Screen Shot - iPhone 12 - 2020-11-08 at 15.44.39.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		952412732557E12A00FF663C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		952412752557E12A00FF663C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9524127D2558272E00FF663C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		9524128025582C6C00FF663C /* MovieItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieItemView.swift; sourceTree = "<group>"; };
+		9524128425582DF900FF663C /* Simulator Screen Shot - iPhone 12 - 2020-11-08 at 15.44.39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 12 - 2020-11-08 at 15.44.39.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		952412602557E12600FF663C = {
 			isa = PBXGroup;
 			children = (
+				9524128325582DA800FF663C /* Screenshot */,
 				9524126B2557E12600FF663C /* TheMovies */,
 				9524126A2557E12600FF663C /* Products */,
 			);
@@ -60,6 +65,7 @@
 				952412752557E12A00FF663C /* Info.plist */,
 				952412722557E12A00FF663C /* Preview Content */,
 				9524127D2558272E00FF663C /* Movie.swift */,
+				9524128025582C6C00FF663C /* MovieItemView.swift */,
 			);
 			path = TheMovies;
 			sourceTree = "<group>";
@@ -70,6 +76,14 @@
 				952412732557E12A00FF663C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9524128325582DA800FF663C /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				9524128425582DF900FF663C /* Simulator Screen Shot - iPhone 12 - 2020-11-08 at 15.44.39.png */,
+			);
+			path = Screenshot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				952412742557E12A00FF663C /* Preview Assets.xcassets in Resources */,
+				9524128525582DF900FF663C /* Simulator Screen Shot - iPhone 12 - 2020-11-08 at 15.44.39.png in Resources */,
 				952412712557E12A00FF663C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9524128125582C6C00FF663C /* MovieItemView.swift in Sources */,
 				9524126F2557E12600FF663C /* ContentView.swift in Sources */,
 				9524126D2557E12600FF663C /* TheMoviesApp.swift in Sources */,
 				9524127E2558272E00FF663C /* Movie.swift in Sources */,
