@@ -1,0 +1,12 @@
+# Xcode
+## Build generated
+build/
+DerivedData/ 
+
+TheMovies.xcodeproj/xcuserdata
+TheMovies.xcodeproj/project.xcworkspace/xcuserdata
+
+## Various settings
+*.pbxuser
+xcuserdata/
+*.xcworkspace
