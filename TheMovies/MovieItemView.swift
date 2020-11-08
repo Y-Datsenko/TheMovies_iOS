@@ -12,12 +12,10 @@ struct MovieItemView: View {
     let movie: Movie
     
     var body: some View {
-        ZStack {
-            Circle()
-                .frame(width: 50, height: 50)
-                .foregroundColor(.green)
-            Text(movie.firstLetter)
-        }
+        Circle()
+            .frame(width: 50, height: 50)
+            .foregroundColor(.green)
+            .overlay(Text(movie.firstLetter))
     }
 }
 
