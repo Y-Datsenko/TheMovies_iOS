@@ -17,7 +17,7 @@ struct MovieItemView: View {
                 .frame(width: 50, height: 50)
                 .foregroundColor(.green)
                 .overlay(Text(movie.firstLetter))
-            VStack {
+            VStack(alignment: .leading) {
                 Text(movie.title)
                 Text(movie.description)
             }
