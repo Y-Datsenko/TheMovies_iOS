@@ -16,10 +16,16 @@ struct MovieItemView: View {
             Circle()
                 .frame(width: 50, height: 50)
                 .foregroundColor(.green)
-                .overlay(Text(movie.firstLetter))
+                .overlay(Text(movie.firstLetter)
+                            .foregroundColor(.white))
             VStack(alignment: .leading) {
                 Text(movie.title)
+                    .font(.headline)
+                    .lineLimit(2)
                 Text(movie.description)
+                    .font(.subheadline)
+                    .lineLimit(2)
+                    .padding(.top, 2)
             }
         }
     }
