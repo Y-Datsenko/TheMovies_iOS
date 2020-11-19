@@ -9,7 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        MovieItemView(movie: movies[0])
+        List(movies) { movie in
+            MovieItemView(movie: movie)
+        }
     }
 }
 
