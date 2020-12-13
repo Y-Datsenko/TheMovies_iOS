@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		04D6BDF2258529550032C320 /* kmmmodule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D6BDF1258529550032C320 /* kmmmodule.framework */; };
 		04D6BDF3258529550032C320 /* kmmmodule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04D6BDF1258529550032C320 /* kmmmodule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04D6BDF725866DF60032C320 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6BDF625866DF60032C320 /* Movie.swift */; };
 		04EAAE972566F4E200DB199E /* Simulator Screen Shot - iPhone 12 - 2020-11-19 at 20.45.24.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EAAE962566F4E200DB199E /* Simulator Screen Shot - iPhone 12 - 2020-11-19 at 20.45.24.png */; };
 		9524126D2557E12600FF663C /* TheMoviesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524126C2557E12600FF663C /* TheMoviesApp.swift */; };
 		9524126F2557E12600FF663C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524126E2557E12600FF663C /* ContentView.swift */; };
@@ -34,7 +33,6 @@
 
 /* Begin PBXFileReference section */
 		04D6BDF1258529550032C320 /* kmmmodule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = kmmmodule.framework; path = "../TheMovies_Android/kmmmodule/build/xcode-frameworks/kmmmodule.framework"; sourceTree = "<group>"; };
-		04D6BDF625866DF60032C320 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		04EAAE962566F4E200DB199E /* Simulator Screen Shot - iPhone 12 - 2020-11-19 at 20.45.24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 12 - 2020-11-19 at 20.45.24.png"; sourceTree = "<group>"; };
 		952412692557E12600FF663C /* TheMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9524126C2557E12600FF663C /* TheMoviesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMoviesApp.swift; sourceTree = "<group>"; };
@@ -92,7 +90,6 @@
 				952412752557E12A00FF663C /* Info.plist */,
 				952412722557E12A00FF663C /* Preview Content */,
 				9524128025582C6C00FF663C /* MovieItemView.swift */,
-				04D6BDF625866DF60032C320 /* Movie.swift */,
 			);
 			path = TheMovies;
 			sourceTree = "<group>";
@@ -207,7 +204,6 @@
 			files = (
 				9524128125582C6C00FF663C /* MovieItemView.swift in Sources */,
 				9524126F2557E12600FF663C /* ContentView.swift in Sources */,
-				04D6BDF725866DF60032C320 /* Movie.swift in Sources */,
 				9524126D2557E12600FF663C /* TheMoviesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

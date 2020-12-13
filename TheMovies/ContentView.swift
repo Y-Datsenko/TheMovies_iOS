@@ -6,10 +6,11 @@
 //
 
 import SwiftUI
+import kmmmodule
 
 struct ContentView: View {
     var body: some View {
-        List(movies) { movie in
+        List(MovieKt.movies, id: \.title) { movie in
             MovieItemView(movie: movie)
         }
     }

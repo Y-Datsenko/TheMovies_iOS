@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import kmmmodule
 
 struct MovieItemView: View {
     
@@ -22,7 +23,7 @@ struct MovieItemView: View {
                 Text(movie.title)
                     .font(.headline)
                     .lineLimit(2)
-                Text(movie.description)
+                Text(movie.description_)
                     .font(.subheadline)
                     .lineLimit(2)
                     .padding(.top, 2)
@@ -33,6 +34,6 @@ struct MovieItemView: View {
 
 struct MovieItemView_Previews: PreviewProvider {
     static var previews: some View {
-        MovieItemView(movie: movies[0])
+        MovieItemView(movie: MovieKt.movies[0])
     }
 }
